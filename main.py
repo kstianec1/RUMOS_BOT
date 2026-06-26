@@ -13,7 +13,7 @@ from telegram.ext import (
 
 BOT_TOKEN = os.environ["BOT_TOKEN"]
 
-MESSAGE = os.environ.get("MESSAGE", "Привет, я бот")
+MESSAGE = os.environ.get("MESSAGE", "Ваш паспорт RUMOS-GR0433959 передан в курьерскую компанию")
 
 # Интервал между сообщениями в секундах (по умолчанию 60 = каждая минута)
 INTERVAL_SECONDS = int(os.environ.get("INTERVAL_SECONDS", "60"))
